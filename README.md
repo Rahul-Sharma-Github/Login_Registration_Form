@@ -1,16 +1,14 @@
-# login
+## Login App UI
 
-A new Flutter project.
+#### - A Simple & Clean Flutter Login App UI.
 
-## Getting Started
+## About Login App UI
 
-This project is a starting point for a Flutter application.
+#### - This is Material Guidelines based Login app.
+#### - We used Material 2 Components to build this Login Page
+#
+#
+## Login App UI =
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://user-images.githubusercontent.com/64002004/218252604-9f69e01d-73ed-4a8a-a08e-97e9fd286fed.png" width="393" height="852">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
