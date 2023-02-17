@@ -1,7 +1,10 @@
 // ignore_for_file: avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
-import 'login_page.dart';
+import 'pages/signup_page.dart';
+import 'pages/login_page.dart';
+
+import 'package:go_router/go_router.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,16 +13,34 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  //route configuration
+  static final GoRouter router = GoRouter(
+    routes: <RouteBase>[
+      GoRoute(
+        path: '/',
+        builder: (BuildContext context, GoRouterState state) {
+          return const LoginPage();
+        },
+        routes: <RouteBase>[
+          GoRoute(
+            path: 'signup',
+            builder: (BuildContext context, GoRouterState state) {
+              return const RegistrationApp();
+            },
+          ),
+        ],
+      ),
+    ],
+  );
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
+      routerConfig: router,
       debugShowCheckedModeBanner: false,
-      title: 'Login',
-      theme: ThemeData(
-        primarySwatch: Colors.pink,
-      ),
-      home: const LoginPage(),
+      theme: ThemeData(primarySwatch: Colors.pink),
+      title: 'Login App',
     );
   }
 }

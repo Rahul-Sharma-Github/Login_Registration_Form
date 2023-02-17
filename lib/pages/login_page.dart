@@ -1,6 +1,7 @@
 // ignore_for_file: avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -98,9 +99,9 @@ class _LoginPageState extends State<LoginPage> {
                 padding: const EdgeInsets.all(10.0),
                 child: TextButton(
                   onPressed: () {},
-                  child: const Text(
+                  child: Text(
                     'Forgot Password ?',
-                    style: TextStyle(fontSize: 16),
+                    style: TextStyle(fontSize: 16, color: Colors.grey[800]),
                   ),
                 ),
               ),
@@ -109,7 +110,7 @@ class _LoginPageState extends State<LoginPage> {
               child: Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () => context.go('/signup'),
                   child: const Text(
                     'Not a Member ?  Sign Up Now !',
                     style: TextStyle(fontSize: 17),
