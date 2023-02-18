@@ -1,8 +1,8 @@
-## Login App UI
+## Login/Registration App UI with Navigation Support
 
-#### - A Simple & Clean Flutter Login App UI.
+#### - A Simple & Clean Flutter Login/Registration App UI.
 
-## About Login App UI
+## About Login/Registration App
 
 #### - This is Material Guidelines based Login/Registration app with go_router Package Routing/Navigation Support.
 #### - We used Material 2 Components to build this Login/Registration Pages
@@ -12,8 +12,8 @@
 #### - Package Features ==>
 ##### - Parsing path and query parameters using a template syntax (for example, "user/:id')
 ##### - Displaying multiple screens for a destination (sub-routes)
-##### - Redirection support - you can re-route the user to a different URL based on application state, for example to a sign-#####   in when the user is not authenticated
-##### - Support for multiple Navigators via ShellRoute - you can display an inner Navigator that displays its own pages based #####   on the matched route. For example, to display a BottomNavigationBar that stays visible at the bottom of the screen
+##### - Redirection support - you can re-route the user to a different URL based on application state, for example to a sign-         in when the user is not authenticated
+##### - Support for multiple Navigators via ShellRoute - you can display an inner Navigator that displays its own pages based         on the matched route. For example, to display a BottomNavigationBar that stays visible at the bottom of the screen
 ##### - Support for both Material and Cupertino apps
 ##### - Backwards-compatibility with Navigator API
 #
