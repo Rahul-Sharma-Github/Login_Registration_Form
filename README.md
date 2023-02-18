@@ -23,7 +23,7 @@
 # (1)
 
 <img src="https://user-images.githubusercontent.com/64002004/219869860-14333aef-3d1d-4b68-b5e0-f2f7f3945c7d.png" width="393" height="852">
-#
+
 #
 # (2)
 
