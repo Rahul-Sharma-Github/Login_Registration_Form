@@ -108,7 +108,7 @@ class _RegistrationAppState extends State<RegistrationApp> {
                   Text(
                     'Already have an account ? ',
                     style: TextStyle(
-                      fontSize: 16,
+                      fontSize: 14,
                       color: Colors.grey[800],
                     ),
                   ),
@@ -117,7 +117,7 @@ class _RegistrationAppState extends State<RegistrationApp> {
                     child: const Text(
                       'Login',
                       style: TextStyle(
-                        fontSize: 18,
+                        fontSize: 16,
                         fontWeight: FontWeight.w800,
                       ),
                     ),

@@ -113,7 +113,7 @@ class _LoginPageState extends State<LoginPage> {
                   onPressed: () => context.go('/signup'),
                   child: const Text(
                     'Not a Member ?  Sign Up Now !',
-                    style: TextStyle(fontSize: 17),
+                    style: TextStyle(fontSize: 16),
                   ),
                 ),
               ),
